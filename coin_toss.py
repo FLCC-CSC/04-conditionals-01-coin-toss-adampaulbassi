@@ -1,13 +1,24 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME:Adam Bassi 
+# DATE: 3/2/2026 
+# BRIEF DESCRIPTION: Coin Toss Random  
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
+import random
+def main():
+    print("===== Coin Flipper =====")
+    
+    number = random.randint(1, 100)
+    
+    if number >= 51:
+        print("Tails")
+    else:
+        print("Heads")
 
+main()
 
 
 
@@ -43,7 +54,7 @@ Tails
 '''
 
 1. What was the hardest part of completing this lab? 
-
+# Getting the range right for the random number generator
 
 
 
